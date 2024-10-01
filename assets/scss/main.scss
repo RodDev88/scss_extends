@@ -1,0 +1,11 @@
+.grid {
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div  {
+    background-color: yellow;
+    padding: 20px;
+    @extend .grid;
+}
